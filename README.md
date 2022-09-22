@@ -6,4 +6,3 @@ This project features:
 - Physics: SKPhysicsBody, SKPhysicsContact
 - Particle Effects: SKEmitterNodes
 - Aspects of game development and how SpriteKit eases development flow
-- 
