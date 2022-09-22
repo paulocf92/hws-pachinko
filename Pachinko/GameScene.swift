@@ -10,10 +10,8 @@ import SpriteKit
 class GameScene: SKScene {
     
     override func didMove(to view: SKView) {
-        
-    }
-    
-    override func update(_ currentTime: TimeInterval) {
-        
+        let background = SKSpriteNode(imageNamed: "background")
+        background.position = CGPoint(x: 512, y: 384)
+        addChild(background)
     }
 }
